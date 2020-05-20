@@ -1,0 +1,7 @@
+<?php 
+
+define("CONSUMER_KEY", "fflch_sti");
+define("CONSUMER_SECRET", "slalalaa");
+define("CALLBACK_ID", "4");
+define("AMBIENTE", "dev");
+define("PERMITIDOS", "5385361,123456"); // 'dev' = teste, 'prod' = producao

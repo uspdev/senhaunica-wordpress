@@ -1,0 +1,85 @@
+[
+    {
+        "name": "uspdev/senhaunica",
+        "version": "1.2.0",
+        "version_normalized": "1.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/uspdev/senhaunica.git",
+            "reference": "ea1105085077791abbe8e32e74175d9352f5e4ff"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/uspdev/senhaunica/zipball/ea1105085077791abbe8e32e74175d9352f5e4ff",
+            "reference": "ea1105085077791abbe8e32e74175d9352f5e4ff",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "php": ">=5.3.0",
+            "zorrodg/oauth-php": "^0.1.0"
+        },
+        "time": "2020-04-20T21:41:18+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Uspdev\\Senhaunica\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Masaki",
+                "email": "masaki.kawabata@gmail.com"
+            }
+        ],
+        "description": "Biblioteca para acesso à senha única",
+        "homepage": "https://github.com/uspdev/senhaunica"
+    },
+    {
+        "name": "zorrodg/oauth-php",
+        "version": "0.1",
+        "version_normalized": "0.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/zorrodg/mworell-oauth-php.git",
+            "reference": "d6d42ad5e8dca0cf79a66401b3f301ac76212301"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/zorrodg/mworell-oauth-php/zipball/d6d42ad5e8dca0cf79a66401b3f301ac76212301",
+            "reference": "d6d42ad5e8dca0cf79a66401b3f301ac76212301",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2014-05-09T01:25:34+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "OAuth1": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Marc Worrell",
+                "email": "marcw@pobox.com"
+            },
+            {
+                "name": "Andres Zorro",
+                "email": "zorrodg@gmail.com"
+            }
+        ],
+        "description": "OAuth composer implementation from oauth-php library from Marc Worrell"
+    }
+]
