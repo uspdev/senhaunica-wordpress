@@ -46,7 +46,7 @@ class UspdevSenhaUnicaWP
             'nome'   => $userSenhaUnica['nomeUsuario']
         ];
 
-        if(in_array($user['codpes'],explode(',',SEINHAUNICA_PERMITIDOS))){
+        if(in_array($user['codpes'],explode(',',SENHAUNICA_PERMITIDOS))){
             $this->loginUser($user);
         }
         
