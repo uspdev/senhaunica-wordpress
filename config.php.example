@@ -1,7 +1,6 @@
 <?php 
 
-define("CONSUMER_KEY", "fflch_sti");
-define("CONSUMER_SECRET", "slalalaa");
-define("CALLBACK_ID", "4");
-define("AMBIENTE", "dev");
-define("PERMITIDOS", "5385361,123456"); // 'dev' = teste, 'prod' = producao
+define("SENHAUNICA_KEY", "fflch_sti");
+define("SENHAUNICA_SECRET", "slalalaa");
+define("SENHAUNICA_CALLBACK_ID", "4");
+defined('SENHAUNICA_PERMITIDOS') ?? define('SENHAUNICA_PERMITIDOS', '5385361,123456'); 

@@ -3,7 +3,7 @@
 /**
  * Plugin Name:       Senha Única USP
  * Description:       Login and Register your users using OAuth 1 USP
- * Version:           1.0.0
+ * Version:           2.0.0
  * Text Domain:       alkaweb
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
@@ -35,21 +35,18 @@ class UspdevSenhaUnicaWP
         }
 
         // Pegar os dados retornados
-        $auth = new Uspdev\Senhaunica\Senhaunica([
-            'consumer_key' => CONSUMER_KEY,
-            'consumer_secret' => CONSUMER_SECRET,
-            'callback_id' => CALLBACK_ID,
-            'amb' => AMBIENTE,
+        $userSenhaUnica = Uspdev\Senhaunica\Senhaunica::login([
+            'identifier' => SENHAUNICA_KEY,
+            'secret' => SENHAUNICA_SECRET,
+            'callback_id' => SENHAUNICA_CALLBACK_ID,
         ]);
-
-        $userSenhaUnica = $auth->login();
         $user = [
             'codpes' => $userSenhaUnica['loginUsuario'],
             'email'  => $userSenhaUnica['emailPrincipalUsuario'],
             'nome'   => $userSenhaUnica['nomeUsuario']
         ];
 
-        if(in_array($user['codpes'],explode(',',PERMITIDOS))){
+        if(in_array($user['codpes'],explode(',',SEINHAUNICA_PERMITIDOS))){
             $this->loginUser($user);
         }
         

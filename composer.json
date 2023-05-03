@@ -2,7 +2,7 @@
     "name": "uspdev/senhaunica-wordpress",
     "type": "library",
     "require": {
-        "uspdev/senhaunica": "^1.2"
+        "uspdev/senhaunica": "^2"
     },
     "authors": [
         {
