@@ -3,7 +3,7 @@
 /**
  * Plugin Name:       Senha Única USP
  * Description:       Login and Register your users using OAuth 1 USP
- * Version:           2.0.2
+ * Version:           2.0.3
  * Text Domain:       uspdev-senhaunica-wordpress
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
