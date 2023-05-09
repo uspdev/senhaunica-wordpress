@@ -1,6 +1,0 @@
-<?php 
-
-define("SENHAUNICA_KEY", "fflch_sti");
-define("SENHAUNICA_SECRET", "slalalaa");
-define("SENHAUNICA_CALLBACK_ID", "4");
-!defined('SENHAUNICA_PERMITIDOS') && define('SENHAUNICA_PERMITIDOS', '5385361,123456'); 

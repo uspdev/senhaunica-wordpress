@@ -704,24 +704,24 @@
         },
         {
             "name": "uspdev/senhaunica",
-            "version": "2.0.0",
-            "version_normalized": "2.0.0.0",
+            "version": "2.0.2",
+            "version_normalized": "2.0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/uspdev/senhaunica.git",
-                "reference": "34228a29d38965cc30c5ac63f1754fcaaa0d78e3"
+                "reference": "244646062872a200d9a45daeb78f99e59cfd4fea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/uspdev/senhaunica/zipball/34228a29d38965cc30c5ac63f1754fcaaa0d78e3",
-                "reference": "34228a29d38965cc30c5ac63f1754fcaaa0d78e3",
+                "url": "https://api.github.com/repos/uspdev/senhaunica/zipball/244646062872a200d9a45daeb78f99e59cfd4fea",
+                "reference": "244646062872a200d9a45daeb78f99e59cfd4fea",
                 "shasum": ""
             },
             "require": {
                 "league/oauth1-client": "^1.10",
                 "php": ">=7.1||>=8.0"
             },
-            "time": "2023-05-03T19:44:43+00:00",
+            "time": "2023-05-09T13:46:36+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -743,7 +743,7 @@
             "homepage": "https://github.com/uspdev/senhaunica",
             "support": {
                 "issues": "https://github.com/uspdev/senhaunica/issues",
-                "source": "https://github.com/uspdev/senhaunica/tree/2.0.0"
+                "source": "https://github.com/uspdev/senhaunica/tree/2.0.2"
             },
             "install-path": "../uspdev/senhaunica"
         }
